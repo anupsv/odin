@@ -16,7 +16,7 @@ contract InvariantStorage {
     }
 
     // Mapping from an address to its Data
-    mapping(address => Data) public dataStore;
+    mapping(address => Data) private dataStore;
 
     // Event for logging data storage
     event DataStored(address indexed dataOwner, ConditionType condition, ActionType action, uint value);
@@ -37,7 +37,6 @@ contract InvariantStorage {
 
     // Function to retrieve data (excluding the owner)
     function retrieveData(address _key) external view returns (ConditionType condition, ActionType action, uint value) {
-
         // Return the data tuple, excluding the owner
         Data storage data = dataStore[_key];
         return (data.condition, data.action, data.value);
