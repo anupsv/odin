@@ -13,4 +13,4 @@ cd cli/
 yarn install
 yarn build
 ```
-4. ../cli/bin/run init -r http://127.0.0.1:54986 -k bcdf20249abf0ed6d944c0288fad489e33f66b3960d9e6229c1cd214ed3bbe31 -u bcdf20249abf0ed6d944c0288fad489e33f66b3960d9e6229c1cd214ed3bbe31
+4. `../cli/bin/run init -r http://127.0.0.1:54986 -k bcdf20249abf0ed6d944c0288fad489e33f66b3960d9e6229c1cd214ed3bbe31 -u bcdf20249abf0ed6d944c0288fad489e33f66b3960d9e6229c1cd214ed3bbe31`
