@@ -37,8 +37,6 @@ contract InvariantStorage {
 
     // Function to retrieve data (excluding the owner)
     function retrieveData(address _key) external view returns (ConditionType condition, ActionType action, uint value) {
-        // Ensure the caller is the owner of the data
-        require(dataStore[_key].owner == msg.sender, "Caller is not the owner.");
 
         // Return the data tuple, excluding the owner
         Data storage data = dataStore[_key];
