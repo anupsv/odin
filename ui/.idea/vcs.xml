@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contracts/lib/ERC721A" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contracts/lib/murky" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contracts/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contracts/lib/solady" vcs="Git" />
+  </component>
+</project>
