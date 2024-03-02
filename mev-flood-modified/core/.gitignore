@@ -1,0 +1,16 @@
+.env
+.env.*
+
+# node
+node_modules
+build
+*.log
+
+# default deployment files
+src/output
+
+# forge
+cache
+
+# anvil
+chaindata
